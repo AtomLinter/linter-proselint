@@ -42,7 +42,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "~2.2.0",
+    "eslint": "^2.7.0",
     "babel-eslint": "^6.0.2",
     "eslint-config-standard": "^5.1.0",
     "eslint-plugin-promise": "^1.1.0",
