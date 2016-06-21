@@ -8,7 +8,26 @@
     "url": "git+https://github.com/AtomLinter/linter-proselint.git"
   },
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.8.0 <2.0.0"
+  },
+  "configSchema": {
+    "enabledScopes": {
+      "description": "List of scopes to run proselint on, run `Editor: Log Cursor Scope` to determine the scopes for a file.",
+      "type": "array",
+      "default": [
+        "source.gfm",
+        "source.pfm",
+        "source.md",
+        "text.plain",
+        "text.tex.latex",
+        "text.tex.latex.beamer",
+        "text.tex.latex.memoir",
+        "source.asciidoc"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
   },
   "keywords": [
     "lint",
