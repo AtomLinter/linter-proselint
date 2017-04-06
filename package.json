@@ -67,7 +67,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.1.0",
     "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint-plugin-standard": "^3.0.0"
   },
   "eslintConfig": {
     "extends": "standard",
